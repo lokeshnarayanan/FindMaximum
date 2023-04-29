@@ -11,11 +11,15 @@ To write a program to find the maximum of a list of numbers.
 ## Program:
 
 i)	# To find the maximum of marks using the list method sort.
-```Python
-
-
-
-```
+''' 
+Program to mark the maximum of marks using the list method sort
+Developed by:Lokesh N 
+RegisterNumber:212222100023 
+'''
+def max_marks(marks):
+    #Write your code here
+    marks.sort()
+    return(marks[-1])
 
 ii)	# To find the maximum marks using the list method max().
 ```Python
